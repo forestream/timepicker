@@ -27,9 +27,6 @@ export default function TimePickerScroll({
 			Math.abs(e.deltaY) >
 			(e.currentTarget as HTMLElement).firstElementChild!.scrollHeight
 		) {
-			console.log(
-				typeof (e.currentTarget as HTMLElement).firstElementChild!.scrollHeight
-			);
 			e.preventDefault();
 			(e.currentTarget as HTMLUListElement).scrollTop +=
 				e.deltaY > 0
