@@ -1,0 +1,20 @@
+.time-picker__selected {
+	width: 450px;
+	height: 30px;
+	border: 2px solid gray;
+	display: flex;
+	align-items: center;
+}
+
+.time-picker__selected-time {
+	width: 100%;
+	text-align: center;
+}
+
+.time-picker__selector {
+	width: 450px;
+	height: 150px;
+	border: 2px solid black;
+	display: flex;
+	align-items: center;
+}

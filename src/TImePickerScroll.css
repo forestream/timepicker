@@ -1,0 +1,29 @@
+.time-picker__scroll {
+	width: 100%;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	overflow-y: scroll;
+	scrollbar-width: none;
+	scroll-snap-type: y mandatory;
+	border: 2px solid blue;
+	user-select: none;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.time-picker__scroll.time-picker__scroll--no-snap {
+	scroll-snap-type: none;
+}
+
+.time-picker__scroll-item {
+	scroll-snap-align: center;
+
+	&:first-of-type {
+		margin-top: calc(75px - 8px);
+	}
+	&:last-of-type {
+		margin-bottom: calc(75px - 8px);
+	}
+}
