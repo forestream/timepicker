@@ -28,9 +28,9 @@
 	}
 
 	&:first-of-type {
-		margin-top: calc(75px - 8px);
+		margin-top: calc(75px - 12px);
 	}
 	&:last-of-type {
-		margin-bottom: calc(75px - 8px);
+		margin-bottom: calc(75px - 12px);
 	}
 }
